@@ -11,22 +11,22 @@ html {
 }
 
 .parallax1 {
-    background: url(img/first.jpeg);
+    background: url(img/first.jpg);
     min-height: 100%
 }
 
 .parallax2 {
-    background: url(img/second.jpeg);
+    background: url(img/second.jpg);
     min-height: 60%
 }
 
 .parallax3 {
-    background: url(img/third.jpeg);
+    background: url(img/third.jpg);
     min-height: 40%
 }
 
 .parallax4 {
-    background: url(img/fourth.jpeg);
+    background: url(img/fourth.jpg);
     min-height: 60%
 }
 
@@ -62,8 +62,8 @@ html {
 
 .heading {
     position: absolute;
-    color: white;
-    font-size: 550%;
+    color: black;
+    font-size: 850%;
     top: 38%;
     width: 100%;
     text-transform: uppercase;
@@ -76,7 +76,7 @@ html {
     top: 45%;
     width: 100%;
     color: white;
-    font-size: 250;
+    font-size: 750;
     text-transform: uppercase;
     letter-spacing: 5px;
     text-shadow: 0 0 10 #000
