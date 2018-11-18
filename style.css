@@ -1,5 +1,4 @@
 
-
 body,
 html {
     height: 100%;
@@ -83,6 +82,10 @@ html {
     text-shadow: 0 0 10 #000
 }
 
+h2 {
+    color: #F38D68
+}
+
 .two-col {
     float: left;
     width: 42%;
@@ -102,6 +105,13 @@ section {
     color: #f2f2f2;
 }
 
+.orange {
+    overflow: auto;
+    padding: 50px 80px;
+    background-color: #F38D68;
+    color: #f2f2f2;
+}
+
 @media (max-width: 768px) {
     .heading {
         font-size: 250%;
@@ -117,3 +127,4 @@ section {
         text-align: center;
     }
 }
+
