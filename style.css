@@ -58,8 +58,7 @@ html {
 .parallax4,
 .parallax5,
 .parallax6,
-.parallax7
-.parallax8 {
+.parallax7 .parallax8 {
     position: relative;
     opacity: .75;
     background-position: center;
@@ -118,6 +117,10 @@ section {
     padding: 50px 80px;
     background-color: #F38D68;
     color: #f2f2f2;
+}
+
+p {
+    color: black;
 }
 
 .ul li {
@@ -271,5 +274,13 @@ nav span {
     top: -30px;
 }
 
+/*colored bullets*/
+ul {list-style: none}
+li::before {content: "•"; color: red}
+li::before {content: "•"; color: red;
+    display: inline-block; width: 1em;
+    margin-left: -1em}
 
-
+    ul.black{
+        color:#000;
+      }
