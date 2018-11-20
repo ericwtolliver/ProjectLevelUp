@@ -275,12 +275,23 @@ nav span {
 }
 
 /*colored bullets*/
-ul {list-style: none}
-li::before {content: "•"; color: red}
-li::before {content: "•"; color: red;
-    display: inline-block; width: 1em;
-    margin-left: -1em}
+ul {
+    list-style: none
+}
 
-    ul.black{
-        color:#000;
-      }
+li::before {
+    content: "•";
+    color: red
+}
+
+li::before {
+    content: "•";
+    color: red;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em
+}
+
+ul.black {
+    color: #000;
+}
