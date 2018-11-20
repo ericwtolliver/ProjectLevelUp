@@ -42,13 +42,13 @@ html {
 }
 
 .parallax7 {
-    background: url(img/seventh.jpg);
-    min-height: 100%
+    background: url(img/question.jpg);
+    min-height: 60%
 }
 
 .parallax8 {
-    background: url(img/spaceinvader.jpg);
-    min-height: 100%
+    background: url(img/eighth.jpg);
+    min-height: 60%
 }
 
 /*Parallax backgrounds */
