@@ -46,6 +46,11 @@ html {
     min-height: 100%
 }
 
+.parallax8 {
+    background: url(img/spaceinvader.jpg);
+    min-height: 100%
+}
+
 /*Parallax backgrounds */
 .parallax1,
 .parallax2,
@@ -53,7 +58,8 @@ html {
 .parallax4,
 .parallax5,
 .parallax6,
-.parallax7 {
+.parallax7
+.parallax8 {
     position: relative;
     opacity: .75;
     background-position: center;
@@ -264,3 +270,6 @@ nav span {
 .movetext {
     top: -30px;
 }
+
+
+
